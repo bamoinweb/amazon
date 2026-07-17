@@ -69,6 +69,7 @@ function renderproductsgrid(){
       document.querySelector('.cart-quantity').innerHTML=cartQuantity;
       savetostorage();
     };
+  updateCartQuantity();
   document.querySelectorAll('.button-primary').forEach((button)=>{
     button.addEventListener('click',()=>{
       const productId= button.dataset.productId;
