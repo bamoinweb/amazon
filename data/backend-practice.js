@@ -2,5 +2,5 @@ const xhr=new XMLHttpRequest();
 xhr.addEventListener('load',()=>{
    console.log(xhr.response);
 })
-xhr.open('get','https://supersimplebackend.dev/products/first');
+xhr.open('get','http://localhost:3000/products');
 xhr.send();
