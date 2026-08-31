@@ -67,7 +67,7 @@ export function loadproducts(fun){
   xhr.addEventListener('error',(error)=>{
     console.log('unexpected error');
   });
-  xhr.open('GET','https://supersimplebackend.dev/products');
+  xhr.open('GET','https://amazon-backend-1-konm.onrender.com/products');
   xhr.send();
 }
 
